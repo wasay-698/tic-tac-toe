@@ -4,7 +4,7 @@ class Tictactoe:
         self.current(winner) = None
 
     def print_board(self):
-        #this is just getting the rows
+        #this is just getting the rows....
         for row in [self.board[i*3:(i+1)*3] for i in range(3)]:
             print('| ' + ' | '.join(row) + '| ' + ' | ' )
             
